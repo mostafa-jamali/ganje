@@ -1,0 +1,92 @@
+
+*{
+  direction: rtl; 
+}
+
+body{
+    background-image: url('./picture/bg.jpg');
+}
+
+.center {
+  margin: auto;
+  width: 40%;
+  padding: 100px;
+  text-align: left;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: xx-large;
+    font: bolder;
+}
+h3{
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: X-large;
+}
+.centeral{
+    color: white;
+    display: block;
+    width: 98%;
+    margin: auto;
+    margin-top: 30px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+  
+}
+input::placeholder{
+  color: lightgrey;
+}
+.center2{
+ 
+    color: white;
+    display: block;
+    max-width: 400px;
+    margin: auto; 
+    margin-top: 10px;
+    padding-right: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+.centeral-sizing{
+    width: 350px;
+    height: 70px;
+    background-color: rgb(69, 108, 240);
+    color: white;
+    display: block;
+    max-width: 400px;
+    margin: auto; 
+    font-size: 25px;
+    font: bolder;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: 1px solid rgb(69, 108, 240);
+    
+  }
+  .centeral-sizing:hover{
+    background-color: hsl(226, 85.1%, 70.6%) ;
+  }
+    
+.center2 .leftLink{
+  direction: ltr;
+
+}
+
+.fas{
+  direction: ltr;
+  text-align: left;
+  width: 2%;
+  color: white;
+  position: relative;
+  top: -20px;
+}
