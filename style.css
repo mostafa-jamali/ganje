@@ -1,15 +1,20 @@
-
+@font-face {
+  font-family: shabnam;
+  src: url(Assets/Shabnam.ttf);
+}
 *{
+  font-family: shabnam;
   direction: rtl; 
 }
-
 body{
     background-image: url('./picture/bg.jpg');
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
 }
-
-.center {
+.container {
   margin: auto;
-  width: 40%;
+  width: 30%;
   padding: 100px;
   text-align: left;
 }
@@ -17,76 +22,72 @@ h1{
     color: white;
     text-align: center;
     margin-top: 40px;
-    margin-top: 40px;
-    font-weight: 900;
-    font-size: xx-large;
-    font: bolder;
+    font-size: 70px;
 }
 h3{
   color: white;
   text-align: center;
-  margin-bottom: 40px;
-  font-weight: 600;
-  font-size: X-large;
+  margin-bottom: 20px;
+  font-size: 30px;
 }
-.centeral{
+.user{
     color: white;
     display: block;
-    width: 98%;
+    width: 100%;
     margin: auto;
-    margin-top: 30px;
     height: 40px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #fff;
-  
+    font-size: 15px;
 }
 input::placeholder{
   color: lightgrey;
 }
-.center2{
- 
-    color: white;
-    display: block;
-    max-width: 400px;
-    margin: auto; 
-    margin-top: 10px;
-    padding-right: 30px;
+.footer{
+  color: white;
+  display: block;
+  width: 100%x;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: rtl;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
 }
 a {
-    color: white;
-    text-decoration: none;
-  }
+  color: white;
+  text-decoration: none;
+}
 
-.centeral-sizing{
-    width: 350px;
-    height: 70px;
-    background-color: rgb(69, 108, 240);
-    color: white;
-    display: block;
-    max-width: 400px;
-    margin: auto; 
-    font-size: 25px;
-    font: bolder;
-    border-radius: 8px;
-    margin-top: 30px;
-    border: 1px solid rgb(69, 108, 240);
-    
-  }
-  .centeral-sizing:hover{
-    background-color: hsl(226, 85.1%, 70.6%) ;
-  }
-    
-.center2 .leftLink{
-  direction: ltr;
+.login{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(69, 108, 240);
+  color: white;
+  display: block;
+  margin: auto; 
+  font-size: 25px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 1px solid rgb(69, 108, 240);
+}
 
+.login:hover{
+  background-color: hsl(226, 85.1%, 70.6%) ;
 }
 
 .fas{
-  direction: ltr;
-  text-align: left;
-  width: 2%;
-  color: white;
-  position: relative;
-  top: -20px;
+direction: ltr;
+width: 2%;
+color: white;
+position: relative;
+top: -20px;
+}
+.book-image{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
 }
